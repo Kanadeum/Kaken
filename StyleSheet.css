@@ -8,9 +8,9 @@
 
 }
 .header {
-    z-index: 1; /*ヘッダーとメニューのzindexを一番上に表示することで他の物と被らなく*/
+    z-index: 1;
 }
-.ddmenu { /* http://ooigawa-bitter-sweet.hatenablog.com/entry/2015/04/12/233000 から*/
+.ddmenu {
     zoom: 1;
     list-style-type: none;
     width: 800px;
@@ -34,7 +34,7 @@
     padding:0;
     text-align:center;
 }
-.ddmenu li a {
+    .ddmenu li a {
         display: block;
         margin: 0;
         padding: 15px 0 11px;
@@ -56,60 +56,26 @@
 .ddmenu li ul li{
     width:100%;
 }
-.ddmenu li ul li a {
+    .ddmenu li ul li a {
         padding: 13px 10px;
         border-top: 1px solid #7c8c0e;
         background: #1b2a78;
     }
-.ddmenu li a:hover > a {
+    .ddmenu li a:hover > a {
         background: #1b2a78;
     }
-.ddmenu li a:hover {
+    .ddmenu li a:hover {
         background: #1b2a78;
     }
-ul.ddmenu li:hover ul {
+    ul.ddmenu li:hover ul {
         display: block;
     }
-ul.ddmenu li ul {
-    visibility: hidden;
-    perspective: 400px;
-}
-
-ul.ddmenu li:hover ul {
-    visibility: visible;
-}
-
-ul.ddmenu ul li {
-    transform: rotateY(90deg);
-    transform-origin: 50% 0;
-    transition: .3s;
-}
-
-ul.ddmenu li:hover li {
-    transform: rotateY(0);
-}
-
-ul.ddmenu ul li:nth-child(2) {
-    transition-delay: .1s;
-}
-
-ul.ddmenu ul li:nth-child(3) {
-    transition-delay: .2s;
-}
-
-ul.ddmenu ul li:nth-child(4) {
-    transition-delay: .3s;
-}
-
-ul.ddmenu ul li:nth-child(5) {
-    transition-delay: .4s;
-}
-.bar {  /*お知らせと本校情報のｻﾗﾀﾞﾊﾞｰ*/
+.bar {
     position: relative;
     padding: .5em.75em;
     background-color: #e8e8e8;
 }
-.SI {   /*school informationの略*/
+.SI {
     line-height: 28px;
     font-size: 0.8rem;
     color: #FFF;
@@ -129,10 +95,37 @@ ul.ddmenu ul li:nth-child(5) {
     float: left;
     border-radius: 0;
 }
-hgroup {    /*?*/
+ul.ddmenu li ul {
+    visibility: hidden;
+    perspective: 400px;
+}
+ul.ddmenu li:hover ul {
+    visibility: visible;
+}
+ul.ddmenu ul li {
+    transform: rotateY(90deg);
+    transform-origin: 50% 0;
+    transition: .3s;
+}
+ ul.ddmenu li:hover li {
+    transform: rotateY(0);
+}
+ ul.ddmenu ul li:nth-child(2) {
+    transition-delay: .1s;
+}
+ul.ddmenu ul li:nth-child(3) {
+    transition-delay: .2s;
+}
+ul.ddmenu ul li:nth-child(4) {
+    transition-delay: .3s;
+}
+ul.ddmenu ul li:nth-child(5) {
+    transition-delay: .4s;
+}
+hgroup {
     position: fixed;
 }
-.tile {     /*タイル用に調整中*/
+.tile {
     background-color: #fff;
     display: flex;
     flex-direction: row;
@@ -148,17 +141,17 @@ hgroup {    /*?*/
     padding-left: 1.25rem;
     margin:2rem;
 }
-.slider { /* http://blog.keisuke11.com/webdesign/css-slider/ 広い物*/
-    width: 800px;
-    height: 600px;
-    overflow: hidden;
+.slider{
+    width:800px;
+    height:600px;
+    overflow:hidden;
 }
 .slider-box {
     width: 300%;
     position: relative;
     left: 0;
     will-change: transform;
-    animation:slider 15s infinite;  /*とりあえず15秒*/
+    animation:slider 15s infinite;
 
 }
 #slider-item{
@@ -167,7 +160,7 @@ hgroup {    /*?*/
     float:left;
     position:relative;
 }
-@keyframes slider{      /*28%進むまでは画像が動かないようにして5%で次の画像に切り替えます　秒数は全体で15秒のはず*/
+@keyframes slider{
     0%{transform:translateX(0);}
     28%{transform:translateX(0)}
     33%{transform:translateX(-800px);}
