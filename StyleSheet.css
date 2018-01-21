@@ -1,20 +1,24 @@
 ﻿body {
     background: #f0ffff;
     text-align: center;
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
     text-align: left;
     font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
 }
-
-.header {
+.header-png {
     z-index: 1; /*ヘッダーとメニューのzindexを一番上に表示することで他の物と被らなく*/
+    max-width: 50%;
+    margin: 0 auto;
 }
-
+eader-png {
+    max-width: 50%;
+    margin: 0 auto;
+}
 .ddmenu { /* http://ooigawa-bitter-sweet.hatenablog.com/entry/2015/04/12/233000 から*/
     zoom: 1;
     list-style-type: none;
-    width: 800px;
+    width: 100%;
     margin: 40px 0px 0px;
     padding: 0;
     position: fixed;
@@ -42,7 +46,7 @@
         .ddmenu li a {
             display: block;
             margin: 0;
-            padding: 15px 0 11px;
+            padding: 10px;
             background: #1b2a78;
             color: #fff;
             font-size: 14px;
@@ -55,6 +59,7 @@
             position: absolute;
             z-index: 9999;
             top: 100%;
+            width:100%;
             left: 0;
             margin: 0;
             padding: 0;
@@ -171,6 +176,8 @@ hgroup { /*?*/
     width: 800px;
     height: 600px;
     overflow: hidden;
+    max-width: 50%;
+    margin: 0 auto;
 }
 
 .slider-box {
