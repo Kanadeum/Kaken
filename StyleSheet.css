@@ -231,3 +231,16 @@ hgroup { /*?*/
         transform: translateX(0);
     }
 }
+.menuyoko ul{
+    width:0;
+    height:0;
+}
+    .menuyoko ul li {
+        position: relative;
+        width: 200px;
+        height: 105px;
+        background: black;
+        list-style: none;
+        top: -540px;
+        right: 40px;
+    }
