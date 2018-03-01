@@ -167,7 +167,7 @@ hgroup { /*?*/
     padding-right: 1.25rem;
     padding-bottom: 1.25rem;
     padding-left: 1.25rem;
-    margin: 2rem auto;
+    margin: 2rem;
     font-size: 14px;
 }
 
@@ -235,12 +235,24 @@ hgroup { /*?*/
     width:0;
     height:0;
 }
-    .menuyoko ul li {
+    .menuyoko ul a li {
         position: relative;
-        width: 200px;
-        height: 105px;
-        background: black;
+        width: 165px;
+        height: 78px;
+        background: #1b2a78;
         list-style: none;
-        top: -540px;
+        top: -535px;
         right: 40px;
+        padding: 0.5em 1em;
+        margin: 0.4em 0;
+        color: #5d627b;
+        background: white;
+        border-top: solid 5px #5d627b;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    }
+
+.menuyoko p {
+    margin: 0;
+    padding: 0;
+}
     }
