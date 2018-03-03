@@ -9,9 +9,13 @@
     width: 100%;
 }
 
-.header-png {
-    margin: 0 auto;
-    z-index: 2; /*ヘッダーとメニューのzindexを一番上に表示することで他の物と被らなく*/
+.header {
+    position:fixed;
+    width:800px;
+    height:40px;
+    margin:0 0;
+    background-color:white;
+    z-index: 1; /*ヘッダーとメニューのzindexを一番上に表示することで他の物と被らなく*/
 }
 
 .ddmenu { /* http://ooigawa-bitter-sweet.hatenablog.com/entry/2015/04/12/233000 から*/
