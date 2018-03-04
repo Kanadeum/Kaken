@@ -11,10 +11,6 @@
 
 .header {
     position:fixed;
-    width:800px;
-    height:40px;
-    margin:0 0;
-    background-color:white;
     z-index: 1; /*ヘッダーとメニューのzindexを一番上に表示することで他の物と被らなく*/
 }
 
