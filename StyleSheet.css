@@ -125,6 +125,7 @@ ul.ddmenu ul li:nth-child(5) {
     position: relative;
     padding: .5em.75em;
     background-color: #e8e8e8;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 }
 
 .SI { /*school informationの略*/
@@ -169,6 +170,7 @@ hgroup { /*?*/
     padding-left: 1.25rem;
     margin: 2rem;
     font-size: 14px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 }
 
     .tile h1 {
