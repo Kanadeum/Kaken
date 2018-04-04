@@ -239,12 +239,12 @@ hgroup { /*?*/
 }
     .menuyoko ul a li {
         position: relative;
-        width: 165px;
+        width: 160px;
         height: 78px;
         background: #1b2a78;
         list-style: none;
         top: -535px;
-        right: 40px;
+        right: 38px;
         padding: 0.5em 1em;
         margin: 0.4em 0;
         color: #5d627b;
